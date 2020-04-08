@@ -4,26 +4,25 @@ public class CastleController : MonoBehaviour
 {
     public string TeamTag;
     public int MaxHealth = 100;
-    public Sprite DeathSprite;
-    public AudioSource AudioData;
     public GameObject Spawn;
     public GameObject[] Minions;
 
     private float health;
-    private SpriteRenderer spriteRenderer;
+    private float lastFrameTimestamp = 0;
+    private float spawnSpeedInSeconds = 1;
 
     void Start()
     {
-        spriteRenderer = gameObject.GetComponent<SpriteRenderer>();
-        AudioData = GetComponent<AudioSource>();
         health = MaxHealth;
         Instantiate(Minions[0], Spawn.transform.position, Spawn.transform.rotation);
     }
 
     void Update()
     {
-        if (Input.GetKeyDown(KeyCode.Space))
+        lastFrameTimestamp += Time.deltaTime;
+        if (lastFrameTimestamp > spawnSpeedInSeconds)
         {
+            lastFrameTimestamp = 0;
             SpawnMinion(MinionType.melle);
         }
     }

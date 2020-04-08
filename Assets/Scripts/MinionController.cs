@@ -13,27 +13,28 @@ public class MinionController : MonoBehaviour
     public float MovementSpeed = 1;
     public string TeamTag;
     public float MaxHealth = 100;
-    public Sprite DeathSprite;
     public AudioClip AttackSound;
     public AudioClip DeathSound;
-    private Slider HealthSlider;
+    public Animator Animator;
 
+    private Slider HealthSlider;
     private bool isAttacking = false;
     private GameObject target;
-    private Animation anim;
-    private SpriteRenderer spriteRenderer;
     private float lastHitTimestamp;
     private float health;
+
     public AudioSource AudioData { get; private set; }
 
     void Start()
     {
-        anim = gameObject.GetComponent<Animation>();
-        spriteRenderer = gameObject.GetComponent<SpriteRenderer>();
         AudioData = GetComponent<AudioSource>();
         HealthSlider = gameObject.GetComponentInChildren<Slider>();
         HealthSlider.value = HealthSlider.maxValue = health = MaxHealth;
+
+        Animator.SetFloat("MoveSpeed", MovementSpeed);
+        Animator.SetFloat("AttackSpeed", AttackSpeed);
     }
+
 
     void Update()
     {
@@ -54,6 +55,8 @@ public class MinionController : MonoBehaviour
             isAttacking = false;
             Debug.Log("not attackning");
         }
+
+        Animator.SetBool("IsAttacking", isAttacking);
     }
 
     void OnCollisionEnter2D(Collision2D collision)
@@ -74,9 +77,9 @@ public class MinionController : MonoBehaviour
         {
             if (gameObject != null)
             {
+                Animator.SetBool("Dying", true);
                 AudioData.PlayOneShot(DeathSound);
-                spriteRenderer.sprite = DeathSprite;
-                Destroy(gameObject, 0.7f);
+                Destroy(gameObject, 0.3f); 
             }
         }
     }
