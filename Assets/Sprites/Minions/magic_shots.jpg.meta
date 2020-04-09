@@ -1,0 +1,707 @@
+fileFormatVersion: 2
+guid: 762c56fabe76bbb49b0db0c8c511ed17
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 3047306565998066872
+    second: magic_shots_0
+  - first:
+      213: 6181001922993897558
+    second: magic_shots_1
+  - first:
+      213: -1804289433979695453
+    second: magic_shots_2
+  - first:
+      213: 1801854040497733114
+    second: magic_shots_3
+  - first:
+      213: -7543927499158907352
+    second: magic_shots_4
+  - first:
+      213: -527099496072198569
+    second: magic_shots_5
+  - first:
+      213: 8023417371800279455
+    second: magic_shots_6
+  - first:
+      213: -7501636578013795574
+    second: magic_shots_7
+  - first:
+      213: -7506982921038290031
+    second: magic_shots_8
+  - first:
+      213: -720096859367847293
+    second: magic_shots_9
+  - first:
+      213: 7470389638080177898
+    second: magic_shots_10
+  - first:
+      213: 4607667392000380178
+    second: magic_shots_11
+  - first:
+      213: 3295442193526112069
+    second: magic_shots_12
+  - first:
+      213: 3152683982704258134
+    second: magic_shots_13
+  - first:
+      213: -1768265492788608291
+    second: magic_shots_14
+  - first:
+      213: -5681940248534834525
+    second: magic_shots_15
+  - first:
+      213: -4695285435695005042
+    second: magic_shots_16
+  - first:
+      213: 854710014050227184
+    second: magic_shots_17
+  - first:
+      213: 3396201088198966361
+    second: magic_shots_18
+  - first:
+      213: -5679354437082839418
+    second: magic_shots_19
+  - first:
+      213: 6685721410719059166
+    second: magic_shots_20
+  - first:
+      213: 6843875164233414630
+    second: magic_shots_21
+  - first:
+      213: 4956673899494961799
+    second: magic_shots_22
+  - first:
+      213: 8005345502969327218
+    second: magic_shots_23
+  - first:
+      213: -2374080892892474148
+    second: magic_shots_24
+  - first:
+      213: 9160545604099371742
+    second: magic_shots_25
+  - first:
+      213: 5830203783892214805
+    second: magic_shots_26
+  - first:
+      213: -8943918459873792279
+    second: magic_shots_27
+  - first:
+      213: 8956192959984754596
+    second: magic_shots_28
+  - first:
+      213: -5088584872271313020
+    second: magic_shots_29
+  - first:
+      213: -3176967995390662167
+    second: magic_shots_30
+  - first:
+      213: -4005221970952083101
+    second: magic_shots_31
+  - first:
+      213: 1309784480773439122
+    second: magic_shots_32
+  - first:
+      213: -4401282336564960347
+    second: magic_shots_33
+  - first:
+      213: -7840831735074395068
+    second: magic_shots_34
+  - first:
+      213: 342246328698343600
+    second: magic_shots_35
+  - first:
+      213: -7225158836295756059
+    second: magic_shots_36
+  - first:
+      213: -151535926992582880
+    second: magic_shots_37
+  - first:
+      213: 7874173357138091326
+    second: magic_shots_38
+  - first:
+      213: -6890375022796090591
+    second: magic_shots_39
+  - first:
+      213: -2584331311545543137
+    second: magic_shots_40
+  - first:
+      213: 1915768841198382873
+    second: magic_shots_41
+  - first:
+      213: 7444799438027489264
+    second: magic_shots_42
+  - first:
+      213: 3986812031779402112
+    second: magic_shots_43
+  - first:
+      213: 2138398009560371873
+    second: magic_shots_44
+  - first:
+      213: 3494720774966474629
+    second: magic_shots_45
+  - first:
+      213: -4484000604038871859
+    second: magic_shots_46
+  - first:
+      213: 6346437214276159560
+    second: magic_shots_47
+  - first:
+      213: 7662934280609637152
+    second: magic_shots_48
+  - first:
+      213: -2195721669489928630
+    second: magic_shots_49
+  - first:
+      213: -3355276062952602936
+    second: magic_shots_50
+  - first:
+      213: -4167088248505758514
+    second: magic_shots_51
+  - first:
+      213: -623956819248054106
+    second: magic_shots_52
+  - first:
+      213: -3543240698782352855
+    second: magic_shots_53
+  - first:
+      213: 4935832831000943679
+    second: magic_shots_54
+  - first:
+      213: 6448857983784597466
+    second: magic_shots_55
+  - first:
+      213: -5429345412678528261
+    second: magic_shots_56
+  - first:
+      213: -1095318296917262203
+    second: magic_shots_57
+  - first:
+      213: -3713934798189428902
+    second: magic_shots_58
+  - first:
+      213: 6656971081882121708
+    second: magic_shots_59
+  - first:
+      213: -5189464854483419705
+    second: magic_shots_60
+  - first:
+      213: -778705114276635241
+    second: magic_shots_61
+  - first:
+      213: -5499546302456504256
+    second: magic_shots_62
+  - first:
+      213: 8524821785720190945
+    second: magic_shots_63
+  - first:
+      213: 6267864142660160218
+    second: magic_shots_64
+  - first:
+      213: -9108220519108819509
+    second: magic_shots_65
+  - first:
+      213: 2944361371681062078
+    second: magic_shots_66
+  - first:
+      213: -4583915571263104854
+    second: magic_shots_67
+  - first:
+      213: -6402115128471670763
+    second: magic_shots_68
+  - first:
+      213: -7960948647148581660
+    second: magic_shots_69
+  - first:
+      213: -4006202510418448085
+    second: magic_shots_70
+  - first:
+      213: 5240880815392961192
+    second: magic_shots_71
+  - first:
+      213: 3886223819159531224
+    second: magic_shots_72
+  - first:
+      213: -1836132344890481827
+    second: magic_shots_73
+  - first:
+      213: -585494965606946825
+    second: magic_shots_74
+  - first:
+      213: -9047533153066788877
+    second: magic_shots_75
+  - first:
+      213: -8117136344738673644
+    second: magic_shots_76
+  - first:
+      213: -7730234027609984667
+    second: magic_shots_77
+  - first:
+      213: -2448968535481294520
+    second: magic_shots_78
+  - first:
+      213: -6688886298320663978
+    second: magic_shots_79
+  - first:
+      213: 7761254429094982611
+    second: magic_shots_80
+  - first:
+      213: -1573096571314926500
+    second: magic_shots_81
+  - first:
+      213: 7888940195406291583
+    second: magic_shots_82
+  - first:
+      213: -7324604784926086738
+    second: magic_shots_83
+  - first:
+      213: 3915671580222236512
+    second: magic_shots_84
+  - first:
+      213: 8769141729211532140
+    second: magic_shots_85
+  - first:
+      213: -5554614872570380952
+    second: magic_shots_86
+  - first:
+      213: -138003475508673014
+    second: magic_shots_87
+  - first:
+      213: -8131342140250619489
+    second: magic_shots_88
+  - first:
+      213: -3481068780403575687
+    second: magic_shots_89
+  - first:
+      213: 5657828981053543116
+    second: magic_shots_90
+  - first:
+      213: -6454744920184147813
+    second: magic_shots_91
+  - first:
+      213: -5169159098534627698
+    second: magic_shots_92
+  - first:
+      213: 8296595628932804100
+    second: magic_shots_93
+  - first:
+      213: -7591432874244277048
+    second: magic_shots_94
+  - first:
+      213: 1276685135068497444
+    second: magic_shots_95
+  - first:
+      213: -1457514714322737723
+    second: magic_shots_96
+  - first:
+      213: -6517639905407715544
+    second: magic_shots_97
+  - first:
+      213: 7165720709500181534
+    second: magic_shots_98
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: magic_shots_0
+      rect:
+        serializedVersion: 2
+        x: 42
+        y: 391
+        width: 101
+        height: 235
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8bcb70c2d253a4a20800000000000000
+      internalID: 3047306565998066872
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: magic_shots_1
+      rect:
+        serializedVersion: 2
+        x: 131
+        y: 391
+        width: 101
+        height: 235
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 650ce08208457c550800000000000000
+      internalID: 6181001922993897558
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: magic_shots_2
+      rect:
+        serializedVersion: 2
+        x: 226
+        y: 390
+        width: 101
+        height: 236
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3ae46afb150e5f6e0800000000000000
+      internalID: -1804289433979695453
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: magic_shots_3
+      rect:
+        serializedVersion: 2
+        x: 321
+        y: 390
+        width: 101
+        height: 236
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: afd38f404b8710910800000000000000
+      internalID: 1801854040497733114
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: magic_shots_4
+      rect:
+        serializedVersion: 2
+        x: 482
+        y: 459
+        width: 101
+        height: 165
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8261551b8e59e4790800000000000000
+      internalID: -7543927499158907352
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: magic_shots_5
+      rect:
+        serializedVersion: 2
+        x: 485
+        y: 321
+        width: 101
+        height: 138
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 756445f0dcd5fa8f0800000000000000
+      internalID: -527099496072198569
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: magic_shots_6
+      rect:
+        serializedVersion: 2
+        x: 482
+        y: 153
+        width: 101
+        height: 166
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f999adaf697e85f60800000000000000
+      internalID: 8023417371800279455
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: magic_shots_8
+      rect:
+        serializedVersion: 2
+        x: 37
+        y: 261
+        width: 263
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 193a6989ec6d1d790800000000000000
+      internalID: -7506982921038290031
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: magic_shots_9
+      rect:
+        serializedVersion: 2
+        x: 37
+        y: 143
+        width: 262
+        height: 117
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 38a418db8b3b106f0800000000000000
+      internalID: -720096859367847293
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: magic_shots_10
+      rect:
+        serializedVersion: 2
+        x: 39
+        y: 9
+        width: 261
+        height: 134
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ae62787cbc72ca760800000000000000
+      internalID: 7470389638080177898
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: magic_shots_11
+      rect:
+        serializedVersion: 2
+        x: 315
+        y: 289
+        width: 119
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 21d455f9419b1ff30800000000000000
+      internalID: 4607667392000380178
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: magic_shots_12
+      rect:
+        serializedVersion: 2
+        x: 315
+        y: 190
+        width: 119
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 54f35fa0733cbbd20800000000000000
+      internalID: 3295442193526112069
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: magic_shots_13
+      rect:
+        serializedVersion: 2
+        x: 317
+        y: 91
+        width: 120
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 65ca62ee06590cb20800000000000000
+      internalID: 3152683982704258134
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: magic_shots_7
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 4
+        width: 104
+        height: 148
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a0b29651745d4e790800000000000000
+      internalID: -7501636578013795574
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

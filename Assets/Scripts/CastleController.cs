@@ -29,7 +29,7 @@ public class CastleController : MonoBehaviour
 
     private void SpawnMinion(MinionType minionType)
     {
-       // Instantiate(Minions[0], Spawn.transform.position, Spawn.transform.rotation);
+        Instantiate(Minions[0], Spawn.transform.position, Spawn.transform.rotation);
     }
 
     public void ApplyDamage(float damage)

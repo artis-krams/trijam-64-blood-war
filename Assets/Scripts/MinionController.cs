@@ -18,7 +18,8 @@ public class MinionController : MonoBehaviour
     public AudioClip AttackSound;
     public AudioClip DeathSound;
     public Animator Animator;
-    public Material laserMaterial;
+    public AudioSource AudioData { get; private set; }
+    public GameObject laserOrigin;
 
     private Slider HealthSlider;
     private bool isAttacking = false;
@@ -26,17 +27,28 @@ public class MinionController : MonoBehaviour
     private float lastHitTimestamp;
     private float health;
     private List<GameObject> targetQueue;
-
-    public AudioSource AudioData { get; private set; }
+    private LineRenderer line;
+    private Vector3 laserOriginVector;
 
     void Start()
     {
         targetQueue = new List<GameObject>();
         AudioData = GetComponent<AudioSource>();
+        line = GetComponent<LineRenderer>();
+        if (laserOrigin == null)
+        {
+            laserOriginVector = new Vector3(transform.position.x, transform.position.y, -1);
+        }
+        else if (line != null)
+        {
+            laserOriginVector = laserOrigin.transform.position;
+        }
+
         HealthSlider = gameObject.GetComponentInChildren<Slider>();
         if (HealthSlider != null)
         {
-            HealthSlider.maxValue = health = MaxHealth;
+            HealthSlider.value = HealthSlider.maxValue = health = MaxHealth;
+            Debug.Log(health);
         }
 
         if (Animator != null)
@@ -80,35 +92,6 @@ public class MinionController : MonoBehaviour
         }
     }
 
-    void OnPostRender()
-    {
-        if (lockedTarget == null || lockedTarget.transform == null)
-        {
-            return;
-        }
-        Debug.Log(lockedTarget);
-
-        if (!laserMaterial)
-        {
-            Debug.LogError("Please Assign a material on the inspector");
-            return;
-        }
-
-        Debug.Log(laserMaterial);
-
-        GL.PushMatrix();
-        laserMaterial.SetPass(0);
-        GL.LoadOrtho();
-
-        GL.Begin(GL.LINES);
-        GL.Color(Color.red);
-        GL.Vertex(gameObject.transform.position);
-        GL.Vertex(new Vector3(lockedTarget.transform.position.x / Screen.width, lockedTarget.transform.position.y / Screen.height, 0));
-        GL.End();
-
-        GL.PopMatrix();
-    }
-
     void OnCollisionEnter2D(Collision2D collision)
     {
         if (minionType == MinionType.melle)
@@ -121,7 +104,23 @@ public class MinionController : MonoBehaviour
         if (minionType == MinionType.ranged)
         {
             Attack(other.gameObject);
+            StartCoroutine("FireLaser");
         }
+    }
+    IEnumerator FireLaser()
+    {
+
+        line.enabled = true;
+
+        while (isAttacking)
+        {
+            line.SetPosition(0, laserOriginVector);
+            line.SetPosition(1, lockedTarget.transform.position);
+
+            yield return null;
+        }
+
+        line.enabled = false;
     }
 
     private void Attack(GameObject target)
