@@ -6,7 +6,7 @@ AnimationClip:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: RedWalk
+  m_Name: RedRangedAttack
   serializedVersion: 6
   m_Legacy: 0
   m_Compressed: 0
@@ -20,10 +20,10 @@ AnimationClip:
   m_PPtrCurves:
   - curve:
     - time: 0
-      value: {fileID: 6637479626102641027, guid: 988b761a3f7a09c4cbee5543ecca8973,
+      value: {fileID: 4469959351748413999, guid: 7536e976e5b8be340a9c68f7cbd1e296,
         type: 3}
     - time: 0.016666668
-      value: {fileID: 9216205506513944712, guid: 988b761a3f7a09c4cbee5543ecca8973,
+      value: {fileID: -4329705954428627743, guid: 7536e976e5b8be340a9c68f7cbd1e296,
         type: 3}
     attribute: m_Sprite
     path: 
@@ -44,8 +44,8 @@ AnimationClip:
       customType: 23
       isPPtrCurve: 1
     pptrCurveMapping:
-    - {fileID: 6637479626102641027, guid: 988b761a3f7a09c4cbee5543ecca8973, type: 3}
-    - {fileID: 9216205506513944712, guid: 988b761a3f7a09c4cbee5543ecca8973, type: 3}
+    - {fileID: 4469959351748413999, guid: 7536e976e5b8be340a9c68f7cbd1e296, type: 3}
+    - {fileID: -4329705954428627743, guid: 7536e976e5b8be340a9c68f7cbd1e296, type: 3}
   m_AnimationClipSettings:
     serializedVersion: 2
     m_AdditiveReferencePoseClip: {fileID: 0}

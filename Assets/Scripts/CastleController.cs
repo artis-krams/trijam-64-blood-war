@@ -29,8 +29,7 @@ public class CastleController : MonoBehaviour
 
     private void SpawnMinion(MinionType minionType)
     {
-        Debug.Log("spawning " + Minions[0].name);
-        Instantiate(Minions[0], Spawn.transform.position, Spawn.transform.rotation);
+       // Instantiate(Minions[0], Spawn.transform.position, Spawn.transform.rotation);
     }
 
     public void ApplyDamage(float damage)

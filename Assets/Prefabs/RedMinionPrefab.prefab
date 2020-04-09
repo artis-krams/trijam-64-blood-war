@@ -526,6 +526,9 @@ MonoBehaviour:
   AttackSound: {fileID: 8300000, guid: 3c47ab10b0972b54faa08635cab3cfb9, type: 3}
   DeathSound: {fileID: 8300000, guid: 078e60299c5245344b22fe9d55aa174b, type: 3}
   Animator: {fileID: -552829958715327436}
+  mat: {fileID: 0}
+  startVertex: {x: 0, y: 0, z: 0}
+  mousePos: {x: 0, y: 0, z: 0}
 --- !u!82 &6900113022205647464
 AudioSource:
   m_ObjectHideFlags: 0
@@ -538,7 +541,7 @@ AudioSource:
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 0}
   m_PlayOnAwake: 0
-  m_Volume: 1
+  m_Volume: 0.189
   m_Pitch: 1
   Loop: 0
   Mute: 0
